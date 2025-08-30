@@ -1,0 +1,8 @@
+langchain
+langchain-core
+langchain-community
+langchain-groq
+langchain-openai
+langchain-google-genai
+faiss-cpu
+python-dotenv
