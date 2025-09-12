@@ -17,7 +17,13 @@ packages = [
     "uvicorn",
     "python-multipart",
     "docx2txt",
-    "pypdf"
+    "pypdf",
+    "beautifulsoup4",
+    "html5lib",
+    "jinja2",
+    "lxml",
+    "selenium",
+    "undetected-chromedriver"
 ]
 for pkg in packages:
     try:
