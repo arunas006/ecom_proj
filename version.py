@@ -23,7 +23,8 @@ packages = [
     "jinja2",
     "lxml",
     "selenium",
-    "undetected-chromedriver"
+    "undetected-chromedriver",
+    "langchain_astradb"
 ]
 for pkg in packages:
     try:

@@ -1,8 +1,0 @@
-{"timestamp": "2025-09-12T08:18:08.770884Z", "level": "info", "event": "Loaded environment variables from .env file"}
-{"timestamp": "2025-09-12T08:18:08.770884Z", "level": "info", "event": "Loaded GROQ_API_KEY from Requirement variable"}
-{"timestamp": "2025-09-12T08:18:08.771885Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from Requirement variable"}
-{"timestamp": "2025-09-12T08:18:08.799465Z", "level": "info", "event": "All required API keys are present"}
-{"config_keys": ["astra_db", "embedding", "retrivers", "llm"], "timestamp": "2025-09-12T08:18:08.803464Z", "level": "info", "event": "yaml configuration file loaded successfully"}
-{"timestamp": "2025-09-12T08:18:08.804462Z", "level": "info", "event": "Loading embedding model: models/text-embedding-004"}
-{"timestamp": "2025-09-12T08:18:09.351062Z", "level": "info", "event": "Loading LLM model: {'groq': {'provider': 'groq', 'model_name': 'llama-3.1-8b-instant', 'temperature': 0, 'max_tokens': 2048}, 'google': {'provider': 'google', 'model_name': 'gemini-2.0-flash', 'temperature': 0, 'max_output_tokens': 2048}} from provider: google"}
-{"timestamp": "2025-09-12T08:18:09.352064Z", "level": "info", "event": "LLM configuration: provider=google, model_name=gemini-2.0-flash, temperature=0"}

@@ -1,0 +1,16 @@
+{"timestamp": "2025-09-13T07:36:08.072071Z", "level": "info", "event": "Loaded environment variables from .env file"}
+{"timestamp": "2025-09-13T07:36:08.072071Z", "level": "info", "event": "Loaded GROQ_API_KEY from Requirement variable"}
+{"timestamp": "2025-09-13T07:36:08.072071Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from Requirement variable"}
+{"timestamp": "2025-09-13T07:36:08.101859Z", "level": "info", "event": "All required API keys are present"}
+{"config_keys": ["astra_db", "embedding", "retrivers", "llm"], "timestamp": "2025-09-13T07:36:08.104887Z", "level": "info", "event": "yaml configuration file loaded successfully"}
+{"timestamp": "2025-09-13T07:36:08.105387Z", "level": "info", "event": "Loading embedding model: models/text-embedding-004"}
+vector store default init, collection 'EcommerceProducts'
+No valid keyspace found in environment variable.
+Detecting API environment 'prod' from supplied endpoint
+createCollection('EcommerceProducts')
+HTTP Request: POST https://04486799-2dda-4bbe-9db4-6745ff319b24-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+finished createCollection('EcommerceProducts')
+{"timestamp": "2025-09-13T07:36:14.644225Z", "level": "info", "event": "AstraDB Vector Store initialized successfully."}
+cursor fetching a page: (empty page state) from EcommerceProducts
+HTTP Request: POST https://04486799-2dda-4bbe-9db4-6745ff319b24-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/EcommerceProducts "HTTP/1.1 200 OK"
+cursor finished fetching a page: (empty page state) from EcommerceProducts
